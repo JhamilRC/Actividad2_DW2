@@ -1,0 +1,6 @@
+//map = recorrer todo el array
+//slit = 
+//colors = colores
+//inquierer = menus
+//axios = ayuda a realizar consultas (GET, SET, POST, PUT)
+//postman = ayuda a realizar consultas (GET, SET, POST, PUT)
