@@ -1,0 +1,48 @@
+/* Contenedor principal */
+
+
+.content {
+  background-color: rgb(149, 153, 161);
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite que las tarjetas se envuelvan a la siguiente línea */
+  justify-content: center;
+  /* Centra horizontalmente las tarjetas */
+  gap: 1rem;
+  /* Espacio entre las tarjetas */
+  padding: 1rem;
+  /* Espacio interior del contenedor */
+}
+
+/* Tarjetas */
+.card {
+  flex: 1 1 calc(25% - 2rem);
+  /* Las tarjetas ocupan aproximadamente el 25% del ancho del contenedor */
+  max-width: 18rem;
+  /* Máximo ancho de las tarjetas */
+  margin: 0.5rem;
+  /* Margen alrededor de cada tarjeta */
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  /* Asegura que las imágenes sean responsivas */
+}
+
+/* Botón dentro de la tarjeta */
+.card .btn {
+  display: block;
+  width: 100%;
+  /* El botón ocupa el 100% del ancho del contenedor padre */
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  /* Asegura que la imagen ocupe el 100% del contenedor */
+  height: 200px;
+  /* Establece una altura fija para todas las imágenes */
+  object-fit: cover;
+  /* Corta la imagen para que ocupe el contenedor, manteniendo su proporción */
+}

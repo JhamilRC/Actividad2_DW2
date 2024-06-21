@@ -1,0 +1,24 @@
+.TITULO {
+    background-color: #ffcc00; 
+    text-align: center; 
+    padding: 10px;
+    border: 2px solid #333; 
+    border-radius: 10px;
+}
+
+.TITULO p {
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #333; 
+    margin: 0;
+}
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto; /* Centrar el carrusel */
+}
+
+.carousel-inner img {
+    height: 450px;
+    object-fit: cover; /* Ajustar la imagen al contenedor */
+}
